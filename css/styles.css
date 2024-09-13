@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #47902e;
+    color: rgb(247, 244, 236);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    font-size: 1rem;
+    background-color: rgb(249, 248, 246);
+}
+
+.card-body>p>ul>li {
+    margin-left: 10px;
+}
+
+.card-body>h5>b {
+    color: #026a3d9e;
+}
+
+img.rounded-circle {
+    border: 4px solid #47902e;
+    width: 250px;
+    height: 320px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: rgb(248, 247, 242);
+    border-color: #47902e;
+}
